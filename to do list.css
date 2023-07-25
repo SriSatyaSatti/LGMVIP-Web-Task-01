@@ -1,0 +1,82 @@
+input{
+    color:blue;
+    height:50px;
+    width:300px;
+    border-radius: 10px;
+    border:none;
+    font-size: medium;
+    text-align: center;
+}
+input:hover{
+    border: solid;
+}
+button{
+    background-color:orange;
+    color: black;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(255, 174, 0);
+    color: white;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    border: solid;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo{
+    background-image:linear-gradient(violet,pink);
+    height: auto;
+    width: 70%;
+}
+.list{
+    height: auto;
+    width: 50%;
+    background-color: bisque;
+    margin-top: 1%; 
+}
+.container{
+    border: 50px solid 1px;
+    background-image:linear-gradient(135deg, rgb(30, 210, 99),bisque);
+    border-radius: 10px;
+    box-shadow: 10px;
+    width: 50%;
+    height: 80%;
+    padding: 5%;
+}
+ul li{
+    position: absolute;
+    list-style: none;
+    color: black;
+    background-image:linear-gradient(5deg,rgb(226, 43, 110),pink);
+    height: 40px;
+    width: 31%;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display: flex;
+    align-items: center;
+    margin-left:70px;
+    padding-left: 3%;
+}
+ul span{
+    position: absolute;
+    right: 484px;
+    width:40px;
+    height:40px;
+    font-size: 22px;
+    background-color:red;
+    line-height: 40px;
+    text-align: center;
+}
+ul span:hover{
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
