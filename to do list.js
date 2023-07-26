@@ -25,6 +25,6 @@ function addItems(){
 }
 list.addEventListener("click",function(e){
     if(e.target.tagName=="SPAN"){
-        e.target.parentElement.style.display="none";
+        e.target.parentElement.remove();
     }
 },false);
